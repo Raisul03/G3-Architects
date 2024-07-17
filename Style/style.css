@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner portion starts */
+
+.header{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* max-width: 1920px; */
+    width: 100%;
+    background-color: rgba(155, 114, 14, 10%);
+}
+.banner{
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+
+/* navigation portion starts here */
+.navbar{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-name{
+    margin-top: 3.125rem;
+    font-size: 2.8125rem;
+    font-weight: bolder;
+    margin-bottom: 6.375rem;
+}
+.nav-list{
+    margin-top: 3.9375rem;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    margin-bottom: 7.25rem;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #424242;
+}
+a:hover{
+    color: orange;
+}
+
+/* navigation portion starts here */
+
+/* Banner Content portion starts here */
+
+.banner-content{
+    text-align: center;
+}
+.banner-image{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400px;
+    margin-bottom: 32px;
+}
+.banner-button{
+    background-color: orange;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 50px;
+}
+
+/* Banner Content portion starts here */
+
+/* banner portion ends */
